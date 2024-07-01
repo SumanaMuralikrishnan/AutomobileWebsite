@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Automobile Company</title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+.nav-logo img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.about-us {
+    flex: 1;
+    background: url('aboutus-banner.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-us .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us .motto {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.about-us .content-section {
+    margin-bottom: 30px;
+}
+
+.about-us .content-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact-details p {
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-logo"><a href="index.html"><img src="logo.png" alt="Logo" height="100px" width="200px"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact/Enquiry</a></li>
+                <li><a href="automobile.html">Automobiles</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-us">
+        <div class="container">
+            <h1>About Us</h1>
+            <p class="motto">"Driving Innovation, Building Trust"</p>
+            
+            <div class="content-section">
+                <h2>Our Vision</h2>
+                <p>To be the world leader in the automobile industry, known for our commitment to innovation, sustainability, and customer satisfaction. We aim to create a future where mobility is accessible, safe, and enjoyable for everyone.</p>
+            </div>
+            
+            <div class="content-section">
+                <h2>Our Mission</h2>
+                <p>Our mission is to design, manufacture, and deliver high-quality automobiles that meet the diverse needs of our customers. We strive to exceed expectations through continuous improvement, cutting-edge technology, and a dedication to excellence in everything we do.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+          <div class="social-media">
+            <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+            <a href="https://www.twitter.com" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+          </div>
+          <div class="contact-details">
+            <p>Contact us: flashautomotive@fautomotive.com | +918738277589</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
